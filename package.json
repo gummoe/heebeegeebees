@@ -1,0 +1,14 @@
+{
+  "name": "heebeegeebees",
+  "version": "0.0.0",
+  "description": "Just some heebeegeebees",
+  "repository": "https://github.com/gummoe/heebeegeebees.git",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "start": "http-server ./app -a localhost -p 8000 -c-1"
+  }
+}
